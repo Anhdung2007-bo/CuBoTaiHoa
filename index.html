@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Đoàn Anh Dũng</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#hero" class="logo">Dev<span>Portfolio</span>.</a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Trang chủ</a></li>
+                <li><a href="#about">Bản thân</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#experience">Học vấn</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#certificates">Chứng chỉ</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+            <div class="nav-right">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section 1: Hero / Banner -->
+        <section id="hero" class="hero section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="badge">Xin chào! Tôi là</span>
+                    <h1>Đoàn Anh Dũng</h1>
+                    <h2>Lập trình viên <span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+                    <p>Sinh viên CNTT đam mê tạo ra các sản phẩm web đẹp mắt, tối ưu và thân thiện với người dùng.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">Xem dự án <i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#contact" class="btn btn-outline">Liên hệ ngay</a>
+                    </div>
+                </div>
+                <div class="hero-avatar">
+                    <div class="avatar-frame">
+                        <img src="images/Ảnh.jpg" alt="Avatar Đoàn Anh Dũng">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: About & Career Goals -->
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title">Giới Thiệu & Mục Tiêu</h2>
+                <div class="about-grid">
+                    <div class="about-card glass-card">
+                        <i class="fa-solid fa-user-graduate icon-large"></i>
+                        <h3>Giới thiệu bản thân</h3>
+                         <p><strong>Họ và tên:</strong> Đoàn Anh Dũng</p>
+                         <strong>Ngày sinh:</strong> 12/11/2007</p>
+                         <p><strong>Quê quán:</strong> Phường Hồng Châu, TP Hưng Yên</p>
+                         <p><strong>Ngành học:</strong> Công nghệ Thông tin</p>
+                    </div>
+                    <div class="about-card glass-card">
+                        <i class="fa-solid fa-bullseye icon-large"></i>
+                        <h3>Mục tiêu nghề nghiệp</h3>
+                        <p><strong>Ngắn hạn:</strong> Trở thành Frontend Developer chuyên nghiệp, thành thạo HTML/CSS, JS và các Framework như React/Vue.<br>
+                        <strong>Dài hạn:</strong> Phát triển thành Full-stack Developer và quản lý dự án phần mềm.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Skills -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title">Kỹ Năng Chuyên Môn</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5 skill-icon" style="color: #e34f26;"></i>
+                        <h4>HTML5 & CSS3</h4>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js skill-icon" style="color: #f7df1e;"></i>
+                        <h4>JavaScript (ES6+)</h4>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-python skill-icon" style="color: #3776ab;"></i>
+                        <h4>Python</h4>
+                        <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-java skill-icon" style="color: #007396;"></i>
+                        <h4>Java</h4>
+                        <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-git-alt skill-icon" style="color: #f05032;"></i>
+                        <h4>Git & GitHub</h4>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Education & Experience -->
+        <section id="experience" class="experience section">
+            <div class="container">
+                <h2 class="section-title">Học Vấn & Kinh Nghiệm</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2025 - Nay</div>
+                        <div class="timeline-content">
+                            <h3>Sinh viên Công Nghệ Thông Tin</h3>
+                            <p>Trường Đại học Bình Dương</p>
+                            <small>Đạt điểm GPA: 3.5/4.0 - Học bổng sinh viên giỏi 2 kỳ liên tiếp.</small>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">06/2025 - 09/2026</div>
+                        <div class="timeline-content">
+                            <h3>Thực tập sinh Frontend Developer</h3>
+                            <p>Công ty Công nghệ ABC</p>
+                            <small>Tham gia phát triển giao diện người dùng, tối ưu hóa tốc độ tải trang cho ứng dụng Web.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Projects -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title">Dự Án Cá Nhân</h2>
+                
+                <!-- Filter Buttons -->
+                <div class="filter-btns">
+                    <button class="filter-btn active" data-filter="all">Tất cả</button>
+                    <button class="filter-btn" data-filter="web">Web App</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile/Phần mềm</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-img">
+                            <img src="images/Ảnh1.png" alt="Dự án Website E-commerce">
+                        </div>
+                        <div class="project-info">
+                            <h3>Website Bán Hàng Trực Tuyến</h3>
+                            <p>Hệ thống bán hàng e-commerce tích hợp giỏ hàng và thanh toán trực tuyến.</p>
+                            <div class="tech-tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span>
+                            </div>
+                            <div class="project-links">
+                                <button class="btn btn-sm btn-modal" data-title="Website Bán Hàng Trực Tuyến" data-desc="Website thương mại điện tử giao diện hiện đại, tối ưu UX/UI, tích hợp API giỏ hàng và thanh toán trực tuyến." data-tech="HTML, CSS, JavaScript, Python (Django)" data-link="https://github.com">Chi tiết</button>
+                                <a href="https://github.com" target="_blank" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> Source</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-img">
+                            <img src="images/Ảnh2.png" alt="Ứng dụng Task Manager">
+                        </div>
+                        <div class="project-info">
+                            <h3>Ứng Dụng Quản Lý Công Việc</h3>
+                            <p>Web app hỗ trợ tạo, quản lý tiến độ và thông báo deadline công việc cá nhân.</p>
+                            <div class="tech-tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <button class="btn btn-sm btn-modal" data-title="Ứng Dụng Quản Lý Công Việc" data-desc="Cho phép quản lý công việc theo mô hình Kanban, lưu trữ dữ liệu bằng LocalStorage và có hiệu ứng drag-and-drop." data-tech="HTML5, CSS3, JavaScript ES6" data-link="https://github.com">Chi tiết</button>
+                                <a href="https://github.com" target="_blank" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> Source</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Certificates & Interests -->
+        <section id="certificates" class="certificates section">
+            <div class="container">
+                <h2 class="section-title">Chứng Chỉ & Sở Thích</h2>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <i class="fa-solid fa-certificate cert-icon"></i>
+                        <h4>Chứng chỉ Web Development</h4>
+                        <p>Cấp bởi Coursera / FreeCodeCamp - 2023</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fa-solid fa-language cert-icon"></i>
+                        <h4>Chứng chỉ Tiếng Anh TOEIC 750</h4>
+                        <p>Đạt chứng chỉ năm 2023</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fa-solid fa-heart cert-icon"></i>
+                        <h4>Sở thích cá nhân</h4>
+                        <p>Đọc sách công nghệ, viết blog cá nhân, đá bóng và chơi đàn Guitar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Contact Form -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title">Liên Hệ Với Tôi</h2>
+                <div class="contact-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Họ và tên *</label>
+                            <input type="text" id="name" placeholder="Nhập họ và tên...">
+                            <small class="error-msg"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" placeholder="Nhập địa chỉ email...">
+                            <small class="error-msg"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Lời nhắn *</label>
+                            <textarea id="message" rows="5" placeholder="Nhập lời nhắn của bạn..."></textarea>
+                            <small class="error-msg"></small>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Gửi tin nhắn</button>
+                        <div id="form-success" class="success-msg">Cảm ơn bạn! Tin nhắn đã được gửi thành công.</div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Đoàn Anh Dũng. Tất cả quyền được bảo lưu.</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <button id="scroll-top" class="scroll-top-btn"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- Project Modal Popup -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3 id="modal-title">Tên dự án</h3>
+            <p id="modal-desc">Mô tả dự án...</p>
+            <p><strong>Công nghệ sử dụng:</strong> <span id="modal-tech"></span></p>
+            <div class="modal-footer">
+                <a id="modal-link" href="#" target="_blank" class="btn btn-primary">Xem Source Code</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
